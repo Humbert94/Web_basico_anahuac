@@ -1,0 +1,57 @@
+html{
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+h1{
+    font-family: 'Monserrat'; 
+    color:blue;
+}
+h2{
+    font-family: 'Monserrat'; 
+    color: purple;
+}
+p{
+    font-family: 'Ubuntu Mono';
+    color:brown;
+}
+
+.parrafo{
+    color: burlywood;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row: repeat(5, 300px);
+    grid-template-areas:
+    ". . bob bob bob bob . ."
+    ". s1 s1 s1 s1 s1 s1 ."
+    ". s2 s2 s2 s2 s2 s2 ."
+    ". . . . . . . ."
+    ". . pie pie pie pie . ."
+
+}
+header{
+    background-color: chocolate;
+    grid-area: bob;
+}
+
+#sec1{
+    background-color: aqua;
+    grid-area: s1;
+}
+
+#sec2{
+    background-color: chartreuse;
+    grid-area: s2;
+}
+
+footer{
+    background-color: darkgray;
+    grid-area: pie;
+}
