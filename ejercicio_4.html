@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galerias.</title>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    
+    
+</head>
+<body>
+    <div id="container">
+      <section class="galeria 1">  
+        <figure>
+            <a href="images/hawaiian-high.jpg" data-lightbox="Portafolio" data-title="Hawaiian">
+                <img src="images/peque.jpg" alt="Hawaiian">
+            </a>
+            <a href="images/Osaka.jpg" data-lightbox="Portafolio" data-title="Osaka Castle">
+                <img src="images/peque2.jpg" alt="Osaka Castle">
+            </a>
+            <a href="images/Tokio.jpg" data-lightbox="Portafolio" data-title="Tokio Tower">
+                <img src="images/peque3.jpg" alt="Tokio Tower">
+            </a>
+        </figure>
+      </section> 
+      <section>
+            <div class="gallery">
+                    <input checked="" id="ind-1" name="gallery" type="radio">
+                      <label for='ind-1'></label>
+                    </input>
+                    <input id="ind-2" name="gallery" type="radio">
+                      <label for="ind-2"></label>
+                    </input>
+                    <input id="ind-3" name="gallery" type="radio">
+                      <label for="ind-3"></label>
+                    </input>
+                    <ul class="gallery-images">
+                      <li class="gallery-item">
+                        <label for="ind-1">
+                          <img src="images/hawaiian-high.bpg">
+                        </label>
+                      </li>
+                      <li class="gallery-item">
+                        <label for="ind-2">
+                          <img src="images/Osaka.jpg">
+                        </label>
+                      </li>
+                      <li class="gallery-item">
+                        <label for="ind-3">
+                          <img src="images/peque3.jpg">
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+      </section> 
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/bpgdec-0.9.4.js"></script>
+    
+    
+</body>
+</html>
