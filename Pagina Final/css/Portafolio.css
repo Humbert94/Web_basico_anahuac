@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+    padding: 10vh; 
+    text-align: center;
+	background-image: url( /images/Back_1.jpg);
+	background-repeat: no-repeat; 
+    color: white; 
+}
+
+
+.navbar {
+    overflow: hidden; 
+	background-color: #333; 
+	vertical-align: middle;
+}
+
+
+.navbar a {
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+	text-decoration: none; 
+}
+
+
+.navbar a.right {
+    float: right; 
+}
+
+
+.navbar a:hover {
+    background-color: #ddd; 
+    color: black; 
+}
+
+.color {
+  color: white;
+}
+
+.espacio{
+	padding-right: 10px;
+}
+
+.demo{
+	margin: 8% 10% 5%;
+	border: 0;
+	font-size: 5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	
+	font-size: 5%;
+	font: inherit;
+	vertical-align: baseline;
+	color:rgba(255, 255, 255, 0.9);
+	display:block;
+	font-weight:bold;
+	opacity:0.76;
+	text-align:center;
+	text-shadow:1px 1px 1px #666;
+	text-transform:uppercase;
+	width:100%;
+}
+
+iframe{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 15%;
+	border: 0;
+	font-size: 5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+section{
+	background-image: url(../images/Fondo_1.jpg);
+	font-size: xx-large;
+}
+
+footer {
+    padding: 1%; 
+    text-align: center; 
+    background-image: url(/images/Back_1.jpg);
+}
+
+img{
+	margin: 0;
+}

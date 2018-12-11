@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	margin:0;
+	padding:0;}
+	
+
+#wrapper{
+	box-shadow: 0 0 12px rgba (0,0,0,0.8);
+	margin: 0 auto;
+	width: 100% !important;}
+
+section{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%!important;
+}
+
+
+#bloque1 {background-image:url("/images/Back_1.jpg");}
+
+#bloque2 {background-image:url("/images/abstract.jpg");}
+
+#bloque3 {background-image:url("/images/index_back.png");}
+
+#bloque5 {background-image:url("/images/abs.jpg");}
+
+#bloque4 {background-image:url("/images/body.jpg");}
+
+	
+	
+
